@@ -39,6 +39,8 @@ body{
 
 
 .navbar {
+  position: sticky;
+  top: 0;
 
   z-index: 999;
   background-color: white;
@@ -59,9 +61,7 @@ body{
       flex-direction: column;
   }
 
-  .navbar {
-      padding: 10px;
-  }
+  
 }
 @keyframes slide {
   from{
